@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-10T07:45:49" hostname="NTONIO" time="1.224">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-10T20:35:39" hostname="NTONIO" time="0.984">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="1.224">
-    <failure message="java.lang.AssertionError: Wrong answer in test #6&#10;&#10;This test checks &quot;back&quot; action, right after &quot;buy&quot; action&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&#10;&gt; remaining&#10;The coffee machine has:&#10;400 ml of water&#10;540 ml of milk&#10;120 g of coffee beans&#10;9 disposable cups&#10;$550 of money&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; buy&#10;&#10;What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:&#10;&gt; back&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; remaining&#10;&#10;The coffee machine has:&#10;400 ml of water&#10;540 ml of milk&#10;120 g of coffee beans&#10;8 disposable cups&#10;$9 of money&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; exit" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #6
+  <testcase name="start" classname="CoffeeMachineTest" time="0.984">
+    <failure message="java.lang.AssertionError: Wrong answer in test #6&#10;&#10;Your program should display the coffee machine's state 2 times, since the &quot;remaining&quot; action was used 2 times.&#10;So, there should be 2 lines showing the &quot;milk&quot; amount, but found 3 such line(s).&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; remaining&#10;&#10;The coffee machine has:&#10;400 ml of water&#10;540 ml of milk&#10;120 g of coffee beans&#10;9 disposable cups&#10;$550 of money&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; buy&#10;&#10;What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:&#10;&gt; back&#10;The coffee machine has:&#10;400 ml of water&#10;540 ml of milk&#10;120 g of coffee beans&#10;9 disposable cups&#10;$550 of money&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; remaining&#10;&#10;The coffee machine has:&#10;400 ml of water&#10;540 ml of milk&#10;120 g of coffee beans&#10;8 disposable cups&#10;$9 of money&#10;&#10;Write action (buy, fill, take, remaining, exit): &#10;&gt; exit" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #6
 
-This test checks &quot;back&quot; action, right after &quot;buy&quot; action
+Your program should display the coffee machine's state 2 times, since the &quot;remaining&quot; action was used 2 times.
+So, there should be 2 lines showing the &quot;milk&quot; amount, but found 3 such line(s).
 
 Please find below the output of your program during this failed test.
 Note that the '&gt;' character indicates the beginning of the input line.
@@ -12,8 +13,8 @@ Note that the '&gt;' character indicates the beginning of the input line.
 ---
 
 Write action (buy, fill, take, remaining, exit): 
-
 &gt; remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -26,6 +27,12 @@ Write action (buy, fill, take, remaining, exit):
 
 What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 &gt; back
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
 Write action (buy, fill, take, remaining, exit): 
 &gt; remaining
@@ -86,8 +93,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 1?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -127,8 +134,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 2?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -160,8 +167,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 3?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -193,8 +200,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 4?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -226,8 +233,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 5?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -257,8 +264,8 @@ Write action (buy, fill, take, remaining, exit):
 Start test 6?[0m
 
 Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -271,6 +278,12 @@ Write action (buy, fill, take, remaining, exit):
 
 What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > back
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
 Write action (buy, fill, take, remaining, exit): 
 > remaining

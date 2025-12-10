@@ -2,8 +2,8 @@
 Start test 1[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -43,8 +43,8 @@
 Start test 2[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -76,8 +76,8 @@
 Start test 3[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -109,8 +109,8 @@
 Start test 4[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -142,8 +142,8 @@
 Start test 5[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -173,8 +173,8 @@
 Start test 6[0m
 
 3Write action (buy, fill, take, remaining, exit): 
-
 > remaining
+
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -187,6 +187,12 @@
 
 XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > back
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
 
 3Write action (buy, fill, take, remaining, exit): 
 > remaining
