@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: This name is not valid because it does not make sense for humans (what is
+      int?)
+  - text: This name is not valid because it starts with a letter.
+  - text: This name is not valid because it is a keyword.
+  - text: This is a valid name.
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2918#comment
+status: Solved
+record: -1
+local_check: false

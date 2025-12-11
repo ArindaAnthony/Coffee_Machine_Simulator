@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: if (i &lt; j) then  System.out.print("Hello!");
+  - text: "if i &lt; j { System.out.print(\"Hello!\"); }"
+  - text: "if {i &lt; j} then System.out.print(\"Hello!\");"
+  - text: "if [i &lt; j] System.out.print(\"Hello!\");"
+  - text: "if (i &lt; j) { System.out.print(\"Hello!\"); }"
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1979#comment
+status: Solved
+record: -1
+local_check: false
