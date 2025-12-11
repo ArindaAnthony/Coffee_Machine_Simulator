@@ -18,6 +18,17 @@ public class Coffee {
         this.price = price;
         this.sc = sc;
     }
+    public void action() {
+        while (true) {
+
+        }
+    }
+
+    public String menu() {
+        System.out.println("Write action (buy, fill, take, clean, remaining, exit):");
+        String action = sc.nextLine();
+        return action.trim().toLowerCase();
+    }
 
 
 }
