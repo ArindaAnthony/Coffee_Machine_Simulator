@@ -9,12 +9,6 @@ public class Main {
         int n = scanner.nextInt();
 
         // YOUR CODE HERE: If 'n' is less than 5, output 'LOW'. If 'n' is exactly 5, output 'MID'. If 'n' is greater than 5, output 'HIGH'.
-        if(n<5){
-            System.out.println("LOW");
-        } else if (n==5) {
-            System.out.println("MID");
-        }else {
-            System.out.println("HIGH");
-        }
+
     }
 }
